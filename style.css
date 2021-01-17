@@ -88,7 +88,7 @@ ul{
 }
 
 .header .banner .app-text{
-    padding-left: 440px;
+    padding-left: 350px;
 }
 
 .header .banner .app-text h1{
@@ -153,7 +153,7 @@ ul{
 .primary-btn::before{
     content: "";
     position: absolute;
-    width: 400px;
+    width: 310px;
     height: 1px;
     border-top: 1px solid white;
     top: 88%;
