@@ -33,7 +33,7 @@ ul{
 .header .navbar .logo{
     color: white;
     font-size: 30px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .header .navbar .menu ul{
@@ -187,4 +187,31 @@ ul{
 .header .social-icons ul li a:hover{
     background: #c32865;
     color: white;
+}
+
+/*-------About--------*/
+.about{
+    padding-top: 100px;
+    color: white;
+}
+
+.profile-img{
+    height: 400px;
+}
+
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+/*----------Resume-------*/
+
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+}
+
+.progress-bar{
+    background-color: white !important;
+    border-radius: 16px;
 }
