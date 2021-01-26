@@ -36,6 +36,11 @@ ul{
     margin-left: 30px;
 }
 
+.header .navbar .logo a{
+    color: white;
+    margin-left: 30px;
+}
+
 .header .navbar .menu ul{
     margin-left: 180px;
 }
@@ -142,7 +147,9 @@ ul{
     cursor: pointer;
     transition: border-color 0.3s ease-out;
 }
-
+.header .banner .app-text .btn-group .play-btn-inner a{
+    color: white;
+}
 .play-btn:hover .play-btn-inner i,
 .play-btn:hover span{
     color: #c32865;
@@ -215,3 +222,20 @@ ul{
     background-color: white !important;
     border-radius: 16px;
 }
+
+
+/*-----------Error-----------*/
+
+.error-body{
+    background: black;
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+.error{
+    color: white;
+    position:absolute;
+    margin-top: 300px;
+    margin-left: 25%;
+    }
