@@ -204,24 +204,129 @@ ul{
 
 .profile-img{
     height: 400px;
-}
-
-.skills-bar p{
-    margin-bottom: 6px;
-    font-weight: 600;
+    border-radius: 2000px;
 }
 
 /*----------Resume-------*/
 
+.skills-bar p{
+    margin-bottom: 1px;
+    font-weight: 600;
+}
+
 .progress{
     border-radius: 16px !important;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    
 }
 
 .progress-bar{
-    background-color: white !important;
+    background-color: #c32865 !important;
     border-radius: 16px;
+    font-size: 15px;
+    font-weight: 600;
 }
+
+.collapsible {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.collapsible:after {
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+
+
+.content{
+    padding: 3px 1px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: black;
+}
+
+.content p{
+    font-weight: 400;
+}
+
+
+/*---------Work&School-------*/
+
+.resume{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.resume h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 19px;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+    background-color: #c32865;
+}
+
+.timeline{
+    list-style-type: none;
+    position: relative;
+}
+
+.timeline::before{
+    content: "";
+    background: #c32865;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+}
+
+.timeline li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.timeline h4{
+    background-color: #000000;
+    padding: 2px 0 5px 0px;
+    font-size: 18px;
+    color: white;
+}
+
+.timeline span{
+    font-weight: bold;
+    color: white;
+}
+
+.timeline li::before{
+    content: "";
+    background: black;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #c32865;
+    left: -9px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+
 
 
 /*-----------Error-----------*/
